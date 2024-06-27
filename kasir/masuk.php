@@ -3,6 +3,7 @@ require 'ceklogin.php';
 $pelanggan = mysqli_query($koneksi, "SELECT * from pelanggan");
 
 $h2 = mysqli_num_rows($pelanggan);
+
 ?>
 
 <!DOCTYPE html>
